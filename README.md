@@ -20,7 +20,7 @@ Please not that the above processes may take an awful long amount of time if usi
 
 ## Requirements
 
-The code was developed under a docker environment and is strongly recommended to run it so. The Dockerfile is included, but it was reversed-engineered from the image, so it may be unstable. If facing problems, the image is derived from https://hub.docker.com/r/jupyter/tensorflow-notebook, with the addition of:
+The code was developed under a docker environment and is strongly recommended to run it so. The Dockerfile is included, but it was reversed-engineered from the image, so it may be unstable. If facing problems, the image is derived from https://hub.docker.com/layers/tensorflow/tensorflow/latest-gpu-jupyter/images/sha256-c3b4e83edf14b282902c80e0ef245115736ce4c91eabc39c93f51ca56508e504?context=explore , with the addition of:
 cv2 (may be already included)
 pywt
 scipy
